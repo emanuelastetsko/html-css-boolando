@@ -12,7 +12,6 @@
     margin: 0 auto;
 }
 
-
 /* HEADER */
 
 header{
@@ -22,6 +21,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 30;
 }
 
 .header-container{
@@ -57,7 +57,6 @@ header .header-container .menu a {
     color: white;
     text-decoration: none;
 }
-
 
 /* MAIN */
 
