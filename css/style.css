@@ -7,8 +7,52 @@
 
 /* REGOLE GENERALI */
 
+.container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
 
 /* HEADER */
+
+header{
+    background-color: #ff6900;
+    color: white;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+header .header-container div ul {
+    list-style: none;
+}
+
+header .header-container div ul li {
+    display: inline-block;
+    font-size: 1.2em;
+    padding-right: 7px;
+}
+
+header .header-container div ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header .header-container div img {
+    max-height: 35px;
+}
+
+header .header-container .menu a {
+    font-size: 1.2em;
+    padding-left: 7px;
+    color: white;
+    text-decoration: none;
+}
 
 
 /* MAIN */
