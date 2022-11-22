@@ -137,3 +137,44 @@ main .cards-container .card .info .old-price{
 }
 
 /* FOOTER */
+
+footer{
+    background-color: #1a1a1a;
+    color: white;
+}
+
+footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+footer .footer-container div h5{
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+footer .footer-container div ul{
+    list-style: none;
+}
+
+footer .footer-container div ul li{
+    display: inline-block;
+}
+
+footer .footer-container div ul li a{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+footer .footer-container .socials h6{
+    font-size: 0.8em;
+    padding-bottom: 10px;
+}
+
+footer .footer-container .socials .socials-icons i{
+    font-size: 1.5em;
+    padding-left: 2px;
+    cursor: pointer;
+}
