@@ -18,13 +18,17 @@
 header{
     background-color: #ff6900;
     color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .header-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
+    padding: 20px 10px;
 }
 
 header .header-container div ul {
@@ -57,5 +61,79 @@ header .header-container .menu a {
 
 /* MAIN */
 
+main{
+    margin-top: 100px;
+}
+
+main .cards-container{
+    display: flex;
+}
+
+main .cards-container .card {
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+main .cards-container .card .img img {
+    width: 100%;
+} 
+
+main .cards-container .card .img .second-img {
+    display: none;
+} 
+
+main .cards-container .card .img:hover img.first-img {
+    display: none;
+} 
+
+main .cards-container .card .img:hover img.second-img {
+    display: inline-block;
+} 
+
+
+main .cards-container .card .img{
+    position: relative;
+} 
+
+main .cards-container .card .img .labels{
+    position: absolute;
+    bottom: 80px;
+} 
+
+main .cards-container .card .img div .box{
+    color: white;
+    padding: 5px;
+}
+
+main .cards-container .card .img div .green{
+    background-color: #008000;
+}
+
+main .cards-container .card .img div .red{
+    background-color: #ff0000;
+}
+
+main .cards-container .card .img .heart{
+    background-color: white;
+    font-size: 1.5em;
+    padding: 15px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+main .cards-container .card .img .heart:hover{
+    color: red;
+    cursor: pointer;
+}
+
+main .cards-container .card .info .discount-price{
+    color: red;
+    font-weight: bold;
+}
+
+main .cards-container .card .info .old-price{
+    text-decoration: line-through;
+}
 
 /* FOOTER */
